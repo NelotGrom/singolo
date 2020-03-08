@@ -45,14 +45,14 @@ h1::after {
   width: 371px;
   display: flex;
   list-style: none;
-  margin-right: 60px;
-  margin-top: 20px;
+  margin-right: 34px;
+  margin-top: 23px;
 }
 
 .nav-menu li + li ::before {
   content: "•";
   position: relative;
-  margin: 12px;
+  margin: 10px;
   color: #494e62;
 }
 
@@ -114,23 +114,16 @@ main {
   border-bottom: #ca4549 solid 5px;
 }
 
+.slider__button_arrow:hover {
+  border-color: orange;
+}
+
 .slider__button_arrow_left {
   transform: rotate(45deg);
 }
 
-.slider-button-container-left:hover {
-  color: blue;
-}
-
-.slider-link-left:hover {
-  color: blue;
-}
-
-.slider__button_arrow_left:hover {
-  color: #dbdb81;
-}
-
 .slider__button_arrow_right {
+  margin-left: 12px;
   transform: rotate(225deg);
 }
 
@@ -145,6 +138,7 @@ footer {
 
 h2 {
   margin-top: 0px;
+  margin-bottom: 21px;
   font-family: "Lato-Bold";
   font-size: 30px;
   text-align: justify;
@@ -160,7 +154,8 @@ h2 {
   font-family: "Lato-Light";
   font-size: 18px;
   text-align: justify;
-  margin: 0px 0px 50px;
+  line-height: 29px;
+  margin: 0px 0px 48px;
 }
 
 .services-container {
@@ -168,8 +163,8 @@ h2 {
   grid-template-areas:
     "serv-icon-1 services-1 serv-icon-2 services-2 serv-icon-3 services-3"
     "serv-icon-4 services-4 serv-icon-5 services-5 serv-icon-6 services-6";
-  grid-template: 299px 84px;
-  margin-top: 50px;
+  grid-template-columns: 60px 258px 60px 261px 60px 260px;
+  grid-template-rows: 120px;
   font-family: "lato-regular";
   font-size: 13px;
   text-align: justify;
@@ -178,15 +173,19 @@ h2 {
 }
 
 h3 {
-  margin-top: 0px;
   font-family: "Lato-Bold";
-  font-size: 16px;
+  font-size: 18px;
   text-decoration-color: #666d89;
+  margin-left: 20px;
+}
+
+.services__text {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .services-container,
 div {
-  margin: 0px 5px 16px;
 }
 
 .serv-icon-1 {
