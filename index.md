@@ -1,1 +1,1 @@
-https://nelotgrom.github.io/NelotGrom/singolo/index.html
+https://nelotgrom.github.io/singolo/
